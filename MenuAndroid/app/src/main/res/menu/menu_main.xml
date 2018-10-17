@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.formation.menuandroid.MainActivity">
+
+
+    <item android:title="ACTIVITE">
+        android:id="@+id/actionActivites"
+        android:checkable="false"
+        android:checked="false"
+        app:showAsAction="never"
+        <menu>
+            <item
+                android:onClick="onOptionsItemSelected"
+                android:id="@+id/actionActivit0"
+                android:title="activité principale"></item>
+            <item
+                android:onClick="onOptionsItemSelected"
+                android:id="@+id/actionActivit1"
+                android:title="activité 1"></item>
+            <item
+                android:onClick="onOptionsItemSelected"
+                android:id="@+id/actionActivit2"
+                android:title="activité 2"></item>
+            <item
+                android:onClick="onOptionsItemSelected"
+                android:id="@+id/actionActivit3"
+                android:enabled="false"
+                android:title="activité 3"></item>
+
+
+
+
+
+
+        </menu>
+
+   </item>
+
+
+
+    <item
+
+
+        android:id="@+id/connexion"
+
+        android:checkable="true"
+
+
+        android:title="CONNEXION"
+        app:showAsAction="never" />
+
+    <item
+
+        android:id="@+id/action_parametre"
+
+
+        android:onClick="onOptionsItemSelected"
+
+        android:title="PARAMETRE"
+        app:showAsAction="never" />
+
+
+
+
+
+</menu>
