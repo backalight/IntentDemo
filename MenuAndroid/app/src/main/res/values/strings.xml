@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">MenuAndroid</string>
     <string name="action_settings">Settings</string>
+    <string name="activit_principale">activité principale</string>
+    <string name="activit_2">activité 2</string>
+    <string name="activit_1">activité 1</string>
+    <string name="activit_3">activité3</string>
+    <string name="title_activity_activitprincipal">activitprincipal</string>
+    <string name="title_activity_activit1">activit1</string>
+    <string name="title_activity_activit3">activit3</string>
+    <string name="title_activity_activit2">activit2</string>
+    <string name="title_activity_kfdj">kfdj</string>
 </resources>

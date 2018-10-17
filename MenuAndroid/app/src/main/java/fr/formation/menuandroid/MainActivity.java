@@ -1,5 +1,6 @@
 package fr.formation.menuandroid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -48,15 +49,26 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         if (id == R.id.actionActivit0) {
+            Intent i = new Intent(this,activitprincipal.class);
+            startActivity(i);
             return true;
         }
         if (id == R.id.actionActivit1) {
+            Intent i = new Intent(this,activit1.class);
+            startActivity(i);
             return true;
+
         }
         if (id == R.id.actionActivit2) {
+            Intent i = new Intent(this,activit2.class);
+            startActivity(i);
             return true;
+
         }
         if (id == R.id.actionActivit3) {
+            Intent i = new Intent(this,activit3.class);
+            startActivity(i);
+
             return true;
         }
         if (id == R.id.connexion) {

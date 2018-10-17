@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="fr.formation.menuandroid.MainActivity">
+    tools:context="fr.formation.menuandroid.activitprincipal">
 
 
     <item android:title="ACTIVITE">
@@ -13,15 +13,15 @@
             <item
                 android:onClick="onOptionsItemSelected"
                 android:id="@+id/actionActivit0"
-                android:title="activité principale"></item>
+                android:title="@string/activit_principale"></item>
             <item
                 android:onClick="onOptionsItemSelected"
                 android:id="@+id/actionActivit1"
-                android:title="activité 1"></item>
+                android:title="@string/activit_1"></item>
             <item
                 android:onClick="onOptionsItemSelected"
                 android:id="@+id/actionActivit2"
-                android:title="activité 2"></item>
+                android:title="@string/activit_2"></item>
             <item
                 android:onClick="onOptionsItemSelected"
                 android:id="@+id/actionActivit3"
